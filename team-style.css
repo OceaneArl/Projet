@@ -1,0 +1,92 @@
+
+h1 {text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    flex-direction: row
+
+}
+
+.Valerie {
+
+    border: 2px solid black ;
+    margin-top: 50px ;
+    text-align : center;
+
+    
+    padding : 2em;
+    border : 0.2em solid #5FC2BA;
+    width  : 10em;
+    height : 10em;
+    border-radius: 100%;
+    
+
+  }
+  
+
+.Oceane {
+
+    border: 2px solid black ;
+    margin-top: 50px ;
+    text-align : center;
+
+    
+    padding : 2em;
+    border : 0.2em solid #5FC2BA;
+    width  : 10em;
+    height : 10em;
+    border-radius: 100%;
+    
+
+}
+
+
+.Surya {
+
+    border: 2px solid black ;
+    margin-top: 50px ;
+    text-align : center;
+
+    
+    padding : 2em;
+    border : 0.2em solid #5FC2BA;
+    width  : 10em;
+    height : 10em;
+    border-radius: 100%;
+    
+
+}
+
+.Johana {
+
+    border: 2px solid black ;
+    margin-top: 50px ;
+    text-align : center;
+
+    
+    padding : 2em;
+    border : 0.2em solid #5FC2BA;
+    width  : 10em;
+    height : 10em;
+    border-radius: 100%;
+    
+
+}
+
+.Fatou {
+
+    border: 2px solid black ;
+    margin-top: 50px ;
+    text-align : center;
+
+    
+    padding : 2em;
+    border : 0.2em solid #5FC2BA;
+    width  : 10em;
+    height : 10em;
+    border-radius: 100%;
+    
+
+}

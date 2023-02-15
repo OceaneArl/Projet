@@ -1,0 +1,22 @@
+.presentation {
+    display: flex;
+    border: 2px solid black;
+    height: 450px;
+}
+
+.test {
+    display: inline-block;
+    position: relative;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+.presentation p {
+
+    justify-content: flex-end;
+    padding-top: 10%;
+    padding-left: 33%;
+    padding-right: 2%;
+}
