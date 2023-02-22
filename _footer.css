@@ -12,14 +12,15 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
-    background: linear-gradient(to right, #1E3C57, #6259C3);
+    background-color: #1E3C58;
+    /*background: linear-gradient(to right, #1E3C57, #6259C3);*/
     padding: 20px 0 30px;
     font-size: 13px;
     line-height: 20px;
 }
 
 .row {
-    width: 85%;
+    width: 45%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -33,3 +34,4 @@ footer {
     padding: 10px;
     margin-left: 10px;
 }
+

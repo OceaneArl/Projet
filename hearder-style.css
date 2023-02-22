@@ -1,14 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body {
     color: white;
+    font-family: Verdana ;
 }
 
 header {
-    background: linear-gradient(to right, #1E3C57, #6259C3);
+    /*background: linear-gradient(to right, #1E3C58, #6259C3);*/
+    background-color: #1E3C58;
     height: 15vh;
     /*border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;*/
@@ -16,37 +19,31 @@ header {
 
 
 
-.nameBusiness {
-    display: flex;
-   padding-top: 20px;
-   color: white;
-   align-items: center;
-   justify-content: center;
+.logo {
+    height: 15vh;
+    float: left;
+    margin-left: 60px;
 }
 
 .navBar {
-    font-family:  "Chivo Mono", monospace;
-    display: flex;
-    gap: 98px;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
+   /* font-family:  "Chivo Mono", monospace;*/
     color: white;
 
 }
 
-ul li {
-    list-style: none;
+.push {
+    float:right;
+    padding-top: 50px;
+    margin-right: 80px;
 }
 
-
 ul li a {
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    padding: 10px;
+    padding: 120px;
     transition: 0.5s ease;
 }
 

@@ -1,18 +1,28 @@
 
-h1 {text-align: center;}
+
+h1 {text-align: center;
+    font-family: Verdana;
+    font-size:1,5em;
+}
 
 
-ul {display: inline-flex;
+ul {
+    display:flex;
     list-style-type: none;
     flex-direction: row;
+    justify-content: center;
+    margin-right: 40px;
+
 }
+
 
 .img {
     
     border: 2px solid black ;
     margin-top: 50px ;
     
-    padding : 2em;
+    
+    padding : 1em;
     border : 0.2em solid #5FC2BA;
     width  : 10em;
     height : 10em;
@@ -22,23 +32,29 @@ ul {display: inline-flex;
     background-position: center;
     background-color: grey;
     background-repeat: no-repeat;
-    background-size: cover
-
+    background-size: cover;
+       
 }
 
-.img .valerie {
+.valerie {
+    margin-top: 220px;
+    font-family: verdana;
     
-    align-items: flex-start;
-    display: flex;
-
 }
+
+.valerie li {
+    font-size: 20px;
+    text-align: center;
+}
+
+
 
 .img1 {
 
     border: 2px solid black ;
-    margin-top: 250px ;
+    margin-top: 280px ;
 
-    padding : 2em;
+    padding : 1em;
     border : 0.2em solid #5FC2BA;
     width  : 10em;
     height : 10em;
@@ -48,16 +64,25 @@ ul {display: inline-flex;
     background-position: center;
     background-color: grey;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover ;
 }
 
+.oceane {
+    margin-top: 220px;
+    font-family: Verdana ;
+}
+
+.oceane li {
+    font-size: 20px;
+    text-align: center;
+}
 
 .img2 {
 
     border: 2px solid black ;
     margin-top: 50px ;
     
-    padding : 2em;
+    padding : 1em;
     border : 0.2em solid #5FC2BA;
     width  : 10em;
     height : 10em;
@@ -70,12 +95,22 @@ ul {display: inline-flex;
     background-size: cover
 }   
 
+.surya {
+    margin-top: 220px;
+    font-family: Verdana ;
+}
+
+.surya li {
+    font-size: 20px;
+    text-align: center;
+
+}
 .img3 {
 
     border: 2px solid black ;
-    margin-top: 250px ;
+    margin-top: 280px ;
     
-    padding : 2em;
+    padding : 1em;
     border : 0.2em solid #5FC2BA;
     width  : 10em;
     height : 10em;
@@ -89,12 +124,22 @@ ul {display: inline-flex;
 
 }
 
+.johana {
+    margin-top: 220px;
+    font-family: Verdana ;
+}
+
+.johana li {
+    font-size: 20px;
+    text-align: center;
+}
+
 .img4 {
 
     border: 2px solid black ;
     margin-top: 50px ;
 
-    padding : 2em;
+    padding : 1em;
     border : 0.2em solid #5FC2BA;
     width  : 10em;
     height : 10em;
@@ -107,10 +152,17 @@ ul {display: inline-flex;
     background-size: cover
 }
 
-
-
-h2 {list-style-type: none;
-    margin-left: 50px;
-    display: flex;
-
+.fatou {
+    margin-top: 220px;
+    font-family: Verdana ;
 }
+
+.fatou li {
+    font-size: 20px;
+    text-align: center;
+}
+
+.img1 .img3 {
+    margin-top: 50px;
+}
+

@@ -17,7 +17,7 @@
 <body>
   <h2>Nous contacter</h2>
   <div class="container">
-    <form action="form.php">
+    <form action="form.php" method="POST">
       <div class="row">
         <div class="col-25">
           <label for="firstname">Prénom</label>
@@ -47,7 +47,7 @@
           <label for="tel">Téléphone</label>
         </div>
         <div class="col-75">
-          <input type="tel" id="tel" name="tel" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}"
+          <input type="tel" id="tel" name="tel" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}"
             placeholder="01 23 45 67 89" minlength="10" maxlength="14" required />
         </div>
       </div>
