@@ -3,30 +3,119 @@
     margin: 0 auto;
     max-width: 65ch;
 } */
+:root {
+    --main-font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --main-color: rgb(11, 156, 175);
+    --secondary-color: rgb(2, 126, 142);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
 
 form {
-    border-radius: .5rem;
-    box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
-    margin:5px 11px 0;
+    display: block;
+    width: 80%;
+    padding: .375rem .75rem;
+    box-shadow: -2px 3px 10px rgb(0 0 0 / 20%);
+    margin: 5px 11px;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
 .form-column {
     width: 100%;
-    
+
 }
 
 div.field {
-    display: inline-block;
-    padding: .5rem;
-    margin: 0 0.5rem 1rem;
-    width: 45%;
+    /* display: inline-flex; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width: 45%; */
+    padding: .2rem;
+    margin: 1rem;
 }
 
-/* display:inline-block;
-background-color:#949494;
-width:18px;
-height:18px;
-opacity:.7;
-margin:5px 11px 0;
-border-radius:100%;
-position:relative */
+/* Template - vérifier si doublon */
+
+* {
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    /* width: 1fr; */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: var(--main-font);
+    font-size: 0.8rem;
+}
+
+/* textarea {
+    resize: none;
+} */
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type="submit"] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
