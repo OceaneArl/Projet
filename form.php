@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<?php include("_header.php") ?>
+<?php include "_header.php"; ?>
 
 <div class="container">
 	<div class="column is-12">

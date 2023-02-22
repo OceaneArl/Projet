@@ -10,17 +10,18 @@
 
 <body>
     
+    
 <header>
-    <img src="#" alt="logo">
-    <h1>SheHacks</h1>
+
     <nav>
-        <ul>
+        <h1 class="nameBusiness">SHEHACKS</h1>
+        <ul class="navBar">
             <li><a href="#"> Home</a></li>
             <li><a href="#"> Team</a></li>
             <li><a href="#"> Contact</a></li>
+            
         </ul>
     </nav>
-
 
 </header>
 

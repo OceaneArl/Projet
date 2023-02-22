@@ -1,44 +1,61 @@
-*{
-    list-style: none;
-    text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+}
+
+header {
+    background: linear-gradient(to right, #1E3C57, #6259C3);
+    height: 15vh;
+    /*border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;*/
 }
 
 
 
-h1 {
-    text-align: center;
-    margin-top: 0;
-}
-
-
-ul nav {
-    display: inline-block;
-    border : 2px solid black;
-  }
-  
-
-ul {
+.nameBusiness {
     display: flex;
-    position: relative;
-    align-items: left;
+   padding-top: 20px;
+   color: white;
+   align-items: center;
+   justify-content: center;
+}
+
+.navBar {
+    font-family:  "Chivo Mono", monospace;
+    display: flex;
+    gap: 98px;
+    align-items: center;
     justify-content: center;
-    margin-left: 24%; 
-    margin-right: 20%;
-    border : 2px solid black;
+    padding: 40px;
+    color: white;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+
+ul li a {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
     padding: 10px;
+    transition: 0.5s ease;
 }
 
-nav ul {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+ul:hover li a {
+    color: #5FC2BA;
 }
 
-nav ul li {
-    list-style: none;
-    padding: 30px 100px;
-}
-
-nav ul li a {
-    text-decoration: none;
+ul:hover li a:not(:hover) {
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
 }
