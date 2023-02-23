@@ -15,14 +15,15 @@
 <nav>
         
         <ul class="navBar">
-            <li><img src="assets/logo.jpg" class="logo"></li>
+            <li class="item"><img src="assets/logo.jpg" class="logo" ></li>
             <div class="push">
-            <li style="float:right"><a href="#"> Home</a></li>
-            <li style="float:right"><a href="#"> Team</a></li>
-            <li style="float:right"><a href="#"> Contact</a></li>   
+            <li style="float:right" class="item"><a href="contact.php"> Contact</a></li>
+            <li style="float:right" class="item"><a href="team.php"> Team</a></li>
+            <li style="float:right" class="item"><a href="home.php"> Home</a></li>   
             </div>
         </ul>
     </nav>
+
 
 </header>
 

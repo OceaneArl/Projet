@@ -2,56 +2,57 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    color: white;
-    font-family: Verdana ;
+    color: #F7F8FA;
 }
 
 header {
     /*background: linear-gradient(to right, #1E3C58, #6259C3);*/
-    background-color: #1E3C58;
-    height: 15vh;
+    background-color: #1E3C57;
+    height: 12vh;
     /*border-top-left-radius: 80px 80px;
     border-top-right-radius: 80px 80px;*/
 }
 
 
-
 .logo {
-    height: 15vh;
+    height: 12vh;
     float: left;
     margin-left: 60px;
+
 }
 
 .navBar {
-   /* font-family:  "Chivo Mono", monospace;*/
-    color: white;
+    /* font-family:  "Chivo Mono", monospace;*/
+    color: #F7F8FA;
 
 }
 
 .push {
-    float:right;
-    padding-top: 50px;
+    float: right;
+    padding-top: 35px;
     margin-right: 80px;
 }
 
-ul li a {
+.navBar .item a {
     font-size: 1.7em;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: #F7F8FA;
+    ;
     padding: 120px;
     transition: 0.5s ease;
 }
 
-ul:hover li a {
+.navBar:hover .item a {
     color: #5FC2BA;
 }
 
-ul:hover li a:not(:hover) {
+.navBar:hover .item a:not(:hover) {
     color: white;
     opacity: 0.3;
     filter: blur(1px);

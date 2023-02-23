@@ -17,8 +17,9 @@
 
 <body>
   <?php include "_header.php"; ?>
-  <h2>Nous contacter</h2>
+  <h1>Nous contacter</h1>
   <div class="container">
+
     <form action="form.php" method="POST">
       <div class="row">
         <label for="firstname" class="col-25">Prénom</label>
@@ -52,11 +53,11 @@
         <textarea id="message" class="col-75" name="message" placeholder="Saisir votre message" required></textarea>
       </div>
       <br />
-      <div class="row">
-        <div class="row">
-          <input type="submit" value="Envoyer" />
-          <!-- <button class="button is-link has-background-alt">Envoyer</button> -->
-        </div>
+      <!-- <div class="row">
+        <div class="row"> -->
+      <input type="submit" value="Envoyer" />
+      <!-- <button class="button is-link has-background-alt">Envoyer</button> -->
+      <!-- </div> -->
     </form>
   </div>
   <!-- <script

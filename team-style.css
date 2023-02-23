@@ -1,168 +1,206 @@
-
-
-h1 {text-align: center;
-    font-family: Verdana;
-    font-size:1,5em;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
+body {
+    color: #F7F8FA;
+    background-color: #1E3C57;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #F7F8FA;
+}
+
+p {
+    font-size: 18px;
+}
+
 ul {
-    display:flex;
+    display: flex;
     list-style-type: none;
     flex-direction: row;
     justify-content: center;
     margin-right: 40px;
+    color: #F7F8FA;
 
 }
 
 
 .img {
-    
-    border: 2px solid black ;
-    margin-top: 50px ;
-    
-    
-    padding : 1em;
-    border : 0.2em solid #5FC2BA;
-    width  : 10em;
-    height : 10em;
+
+
+    margin-top: 40px;
+
+    padding: 1em;
+    border: 0, 2em solid beige;
+    width: 10em;
+    height: 10em;
     border-radius: 100%;
 
-    background-image:URL(https://images.pexels.com/photos/1912176/pexels-photo-1912176.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-image: URL(assets/valerie.jpg);
     background-position: center;
-    background-color: grey;
     background-repeat: no-repeat;
     background-size: cover;
-       
+
+
+
 }
 
 .valerie {
-    margin-top: 220px;
+    margin-top: 150px;
     font-family: verdana;
-    
+
 }
 
 .valerie li {
     font-size: 20px;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.valerie p {
+    margin-left: 20px;
 }
 
 
 
 .img1 {
 
-    border: 2px solid black ;
-    margin-top: 280px ;
+    margin-top: 300px;
 
-    padding : 1em;
-    border : 0.2em solid #5FC2BA;
-    width  : 10em;
-    height : 10em;
+    padding: 1em;
+    border: 0.2em solid #1E3C58;
+    width: 10em;
+    height: 10em;
     border-radius: 100%;
-    
-    background-image:URL(https://images.pexels.com/photos/624033/pexels-photo-624033.jpeg?auto=compress&cs=tinysrgb&w=800);
+
+    background-image: URL(assets/oceane.jpg);
     background-position: center;
     background-color: grey;
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
 }
 
 .oceane {
-    margin-top: 220px;
-    font-family: Verdana ;
+    margin-top: 150px;
+    font-family: Verdana;
 }
 
 .oceane li {
     font-size: 20px;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.oceane p {
+    margin-left: 20px;
 }
 
 .img2 {
 
-    border: 2px solid black ;
-    margin-top: 50px ;
-    
-    padding : 1em;
-    border : 0.2em solid #5FC2BA;
-    width  : 10em;
-    height : 10em;
+    margin-top: 40px;
+
+    padding: 1em;
+    border: 0.2em solid #1E3C58;
+    width: 10em;
+    height: 10em;
     border-radius: 100%;
-    
-    background-image: URL(https://images.pexels.com/photos/62324/leopard-safari-wildier-botswana-62324.jpeg?auto=compress&cs=tinysrgb&w=800);
+
+    background-image: URL(assets/surya.jpg);
     background-position: center;
     background-color: grey;
     background-repeat: no-repeat;
     background-size: cover
-}   
+}
 
 .surya {
-    margin-top: 220px;
-    font-family: Verdana ;
+    margin-top: 150px;
+    font-family: Verdana;
 }
 
 .surya li {
     font-size: 20px;
     text-align: center;
+    padding-bottom: 10px;
 
 }
+
+.surya p {
+    margin-left: 20px;
+}
+
 .img3 {
 
-    border: 2px solid black ;
-    margin-top: 280px ;
-    
-    padding : 1em;
-    border : 0.2em solid #5FC2BA;
-    width  : 10em;
-    height : 10em;
+    margin-top: 300px;
+
+    padding: 1em;
+    border: 0.2em solid #1E3C58;
+    width: 10em;
+    height: 10em;
     border-radius: 100%;
 
-    background-image: URL(https://images.pexels.com/photos/951007/pexels-photo-951007.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-image: URL(assets/johana.jpg);
     background-position: center;
     background-color: grey;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 
 }
 
 .johana {
-    margin-top: 220px;
-    font-family: Verdana ;
+    margin-top: 150px;
+    font-family: Verdana;
 }
 
 .johana li {
     font-size: 20px;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.johana p {
+    margin-left: 20px;
+
 }
 
 .img4 {
 
-    border: 2px solid black ;
-    margin-top: 50px ;
+    margin-top: 40px;
 
-    padding : 1em;
-    border : 0.2em solid #5FC2BA;
-    width  : 10em;
-    height : 10em;
+    padding: 1em;
+    border: 0.2em solid #1E3C58;
+    width: 10em;
+    height: 10em;
     border-radius: 100%;
-    
-    background-image:URL(https://images.pexels.com/photos/13832829/pexels-photo-13832829.jpeg?auto=compress&cs=tinysrgb&w=800);
+
+    background-image: URL(assets/fatou.jpg);
     background-position: center;
     background-color: grey;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .fatou {
-    margin-top: 220px;
-    font-family: Verdana ;
+    margin-top: 150px;
+    font-family: Verdana;
 }
 
 .fatou li {
     font-size: 20px;
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.fatou p {
+    margin-left: 20px;
 }
 
 .img1 .img3 {
     margin-top: 50px;
 }
-

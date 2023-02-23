@@ -1,116 +1,101 @@
-/* section {
-    padding: .5rem;
-    margin: 0 auto;
-    max-width: 65ch;
-} */
-
 :root {
-    --main-font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --main-color: rgb(11, 156, 175);
-    --secondary-color: rgb(2, 126, 142);
-    --light-color: #e3e3e3;
+    --secondary-color: #1E3C57;
+    --light-color: #F7F8FA;
+    --dark-color: #333333;
 }
 
 * {
     box-sizing: border-box;
-    font-family: var(--main-font);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 50px;
+    margin: 1rem;
+    color: var(--light-color);
+}
+
+p {
+    font-size: 18px;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
 }
 
 form {
+    background-color: var(--light-color);
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     align-items: center;
-    width: 100%;
-    padding: 1.5rem;
-    box-shadow: -2px 3px 10px rgb(0 0 0 / 20%);
-    margin: auto;
-    border-radius: .375rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    justify-content: center;
+    width: 60%;
+    padding: 1rem;
+    /* border-radius: 2%; */
+    box-shadow: -2px 7px 10px rgb(0 0 0 / 20%);
 }
 
-.form-column {
-    width: 100%;
-}
-
-div.field {
-    /* display: inline-flex; */
+div.row {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /* width: 45%; */
-    padding: .2rem;
-    margin: 1rem;
-}
-
-div.row{
-    display: flex;
-    align-items: center;
     height: 100px;
+    width: 37%;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-select,
+/* .row {
+    width: 37%:
+} */
+
+input,
 textarea {
     display: flex;
-    /* align-content: flex-start; */
-    width: 35vw;
+    width: 205px;
     padding: 12px;
-    margin: 0.1rem;
     border: 1px solid var(--light-color);
     border-radius: 4px;
-    font-family: var(--main-font);
     font-size: 0.8rem;
     resize: none;
 }
 
+
 label {
-    padding: 8px;
     display: flex;
     align-items: center;
-    width: 90px;
+    color: var(--dark-color);
+    padding: 0.5vw 0vw 0vw 0vw;
+    width: 20rem;
     height: 15px;
-    margin-left: 20px;
 }
 
 input[type="submit"] {
+    /* display: flex;
+    align-items: center; */
     background-color: var(--main-color);
-    color: var(--light-color);
-    padding: 12px 20px;
-    margin: 1rem;
+    color: white;
+    width: 90px;
+    padding: 12px 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: right;
 }
 
 input[type="submit"]:hover {
     background-color: var(--secondary-color);
 }
 
-.container {
-    align-items: center;
-    border-radius: 5px; 
-    padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-
+/* @media screen and (max-width: 600px) {
     .col-25,
     .col-75,
     input[type="submit"] {
-        width: 100%;
         margin-top: 0;
     }
-}
+} */
