@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <include src="-header.html"></include>
+    <?php include "_header.php"; ?>
     <div class="presentation">
         <div class="test">
             <img src="assets/black.jpg" alt="pic">
@@ -23,7 +23,7 @@
             Demandez vite un devis en remplaçant notre formulaire contact. </p>
     </div>
 
-    <include src="_footer.html"></include>
+    <?php include "_footer.php"; ?>
 
 </body>
 

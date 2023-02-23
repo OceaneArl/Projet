@@ -1,44 +1,58 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
     list-style: none;
+}
+
+body {
+    color: white;
+    font-family: Verdana ;
+}
+
+header {
+    /*background: linear-gradient(to right, #1E3C58, #6259C3);*/
+    background-color: #1E3C58;
+    height: 15vh;
+    /*border-top-left-radius: 80px 80px;
+    border-top-right-radius: 80px 80px;*/
+}
+
+
+
+.logo {
+    height: 15vh;
+    float: left;
+    margin-left: 60px;
+}
+
+.navBar {
+   /* font-family:  "Chivo Mono", monospace;*/
+    color: white;
+
+}
+
+.push {
+    float:right;
+    padding-top: 50px;
+    margin-right: 80px;
+}
+
+ul li a {
+    font-size: 1.7em;
+    font-weight: 700;
     text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 120px;
+    transition: 0.5s ease;
 }
 
-
-
-h1 {
-    text-align: center;
-    margin-top: 0;
+ul:hover li a {
+    color: #5FC2BA;
 }
 
-
-ul nav {
-    display: inline-block;
-    border : 2px solid black;
-  }
-  
-
-ul {
-    display: flex;
-    position: relative;
-    align-items: left;
-    justify-content: center;
-    margin-left: 24%; 
-    margin-right: 20%;
-    border : 2px solid black;
-    padding: 10px;
-}
-
-nav ul {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    list-style: none;
-    padding: 30px 100px;
-}
-
-nav ul li a {
-    text-decoration: none;
+ul:hover li a:not(:hover) {
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
 }

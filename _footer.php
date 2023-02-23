@@ -10,10 +10,16 @@
 
 <body>
     
-
 <footer>
+    <div class="row">
+        <div class="col">Mentions légales </div>
+        <div class="col">Cookies</div>
+        <div class="col">CGV/CGU</div>
+        <div class="col">Réseaux sociaux</div>
+    </div>
+</footer> 
 
-</footer>
+
 </body>
 
 
