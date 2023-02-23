@@ -3,10 +3,12 @@
     margin: 0 auto;
     max-width: 65ch;
 } */
+
 :root {
     --main-font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --main-color: rgb(11, 156, 175);
     --secondary-color: rgb(2, 126, 142);
+    --light-color: #e3e3e3;
 }
 
 * {
@@ -15,18 +17,20 @@
 }
 
 form {
-    display: block;
-    width: 80%;
-    padding: .375rem .75rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
     box-shadow: -2px 3px 10px rgb(0 0 0 / 20%);
-    margin: 5px 11px;
+    margin: auto;
     border-radius: .375rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
 .form-column {
     width: 100%;
-
 }
 
 div.field {
@@ -40,10 +44,10 @@ div.field {
     margin: 1rem;
 }
 
-/* Template - vérifier si doublon */
-
-* {
-    box-sizing: border-box;
+div.row{
+    display: flex;
+    align-items: center;
+    height: 100px;
 }
 
 input[type="text"],
@@ -51,29 +55,32 @@ input[type="email"],
 input[type="tel"],
 select,
 textarea {
-    width: 100%;
-    /* width: 1fr; */
+    display: flex;
+    /* align-content: flex-start; */
+    width: 35vw;
     padding: 12px;
-    border: 1px solid #ccc;
+    margin: 0.1rem;
+    border: 1px solid var(--light-color);
     border-radius: 4px;
-    resize: vertical;
     font-family: var(--main-font);
     font-size: 0.8rem;
+    resize: none;
 }
 
-/* textarea {
-    resize: none;
-} */
-
 label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 15px;
+    margin-left: 20px;
 }
 
 input[type="submit"] {
     background-color: var(--main-color);
-    color: white;
+    color: var(--light-color);
     padding: 12px 20px;
+    margin: 1rem;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -85,21 +92,9 @@ input[type="submit"]:hover {
 }
 
 .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    align-items: center;
+    border-radius: 5px; 
     padding: 20px;
-}
-
-.col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-}
-
-.col-75 {
-    float: left;
-    width: 60%;
-    margin-top: 6px;
 }
 
 /* Clear floats after the columns */
